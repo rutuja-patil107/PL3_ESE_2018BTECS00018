@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Life</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+   
+    .quote{
+    	border: 0.5px solid white;
+    	margin: 15px;
+    }
+    .fa {
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fa:hover {
+  color: darkblue;
+}
+  </style>
+</head>
+<body >
+  <div style="width: 60%;margin: auto;text-align: center;">
+    <header style="font-size: 60px;">Life Quotes!</header>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <section>
+    	<header style="font-size: 30px;color: blue;">Motivational Quotes</header><br>
+    	<div class="quote">
+    		<blockquote cite="https://www.brainyquote.com/">
+    			<p style="font-size: 30px;">"Life is a shipwreck but we must not forget to sing in the lifeboats…"<br><br>                                                 
+    				<cite style="color: red;">-Voltaire</cite></p>
+
+    		</blockquote>
+            <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i><br>
+    	</div>
+    	<div class="quote">
+    		<blockquote cite="https://www.brainyquote.com/">
+    			<p style="font-size: 30px;">"Life is too short to be living somebody else’s dream …"<br><br>                                                 
+    				<cite style="color: red;">-Hugh Hefner</cite></p>
+
+    		</blockquote>
+            <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i><br>
+    	</div>
+    	<div class="quote">
+    		<blockquote cite="https://www.brainyquote.com/">
+    			<p style="font-size: 30px;">"Many of life’s failures are experianced by people who did not realize how close they were to success when they gave up…"<br><br>                                                 
+    				<cite style="color: red;">-Thomas Edison</cite></p>
+
+    		</blockquote>
+            <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i><br>
+    	</div>
+    </section>
+    <section>
+    	<br><br><header style="font-size: 20px;color:white;">Top 100 Quotes</header><br>
+    	<a href="https://www.brainyquote.com/">Click Here</a>
+    </section>
+    
+  </div>
+</body>
+<script>
+function myFunction(x) {
+  x.classList.toggle("fa-thumbs-down");
+}
+</script>
+</html>

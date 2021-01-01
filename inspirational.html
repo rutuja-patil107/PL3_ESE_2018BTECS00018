@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inspirational</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+   
+    .quote{
+    	border: 0.5px solid white;
+    	margin: 15px;
+    }
+    .fa {
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fa:hover {
+  color: darkblue;
+}
+  </style>
+</head>
+<body >
+  <div style="width: 60%;margin: auto;text-align: center;">
+    <header style="font-size: 60px;">Inspirational Quotes!</header>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <section>
+    	<header style="font-size: 30px;color: blue;">Motivational Quotes</header><br>
+    	<div class="quote">
+    		<blockquote cite="https://www.brainyquote.com/">
+    			<p style="font-size: 30px;">"Try not to become a man of success but a man of value …"<br><br>                                                 
+    				<cite style="color: red;">-Albert Einstein</cite></p>
+
+    		</blockquote>
+            <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i><br>
+    	</div>
+    	<div class="quote">
+    		<blockquote cite="https://www.brainyquote.com/">
+    			<p style="font-size: 30px;">"Forever – is composed of nows …"<br><br>                                                 
+    				<cite style="color: red;">-Emily Dickinson</cite></p>
+
+    		</blockquote>
+            <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i><br>
+    	</div>
+    	<div class="quote">
+    		<blockquote cite="https://www.brainyquote.com/">
+    			<p style="font-size: 30px;">"Never tell me the sky is the limit when there are footprints on the moon…"<br><br>                                                 
+    				<cite style="color: red;">-Elon Musk</cite></p>
+
+    		</blockquote>
+            <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i><br>
+    	</div>
+    </section>
+    <section>
+    	<br><br><header style="font-size: 20px;color:white;">Top 100 Quotes</header><br>
+    	<a href="https://www.brainyquote.com/">Click Here</a>
+    </section>
+    
+  </div>
+  <script>
+function myFunction(x) {
+  x.classList.toggle("fa-thumbs-down");
+}
+</script>
+</body>
+</html>

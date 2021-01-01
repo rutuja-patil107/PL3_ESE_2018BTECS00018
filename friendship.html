@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Friendship</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+   
+    .quote{
+    	border: 0.5px solid white;
+    	margin: 15px;
+    }
+    .fa {
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fa:hover {
+  color: darkblue;
+}
+  </style>
+</head>
+<body >
+  <div style="width: 60%;margin: auto;text-align: center;">
+    <header style="font-size: 60px;">Friendship Quotes!</header>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <section>
+    	<header style="font-size: 30px;color: blue;">Motivational Quotes</header><br>
+    	<div class="quote">
+    		<blockquote cite="https://www.brainyquote.com/">
+    			<p style="font-size: 30px;">"Truly great friends are hard to find, difficult to leave, and impossible to forget…"<br><br>                                                 
+    				<cite style="color: red;">-G. Randolf</cite></p>
+
+    		</blockquote>
+            <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+    	</div>
+    	<div class="quote">
+    		<blockquote cite="https://www.brainyquote.com/">
+    			<p style="font-size: 30px;">"Am I not destroying my enemies when I make friends of them?…"<br><br>                                                 
+    				<cite style="color: red;">-Dan Millman</cite></p>
+
+    		</blockquote>
+            <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+    	</div>
+    	<div class="quote">
+    		<blockquote cite="https://www.brainyquote.com/">
+    			<p style="font-size: 30px;">"When something is important enough,you do it even if the odds are not in your favour."<br><br>                                                 
+    				<cite style="color: red;">-Elon Musk</cite></p>
+
+    		</blockquote>
+            <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+    	</div>
+    </section>
+    <section>
+    	<br><br><header style="font-size: 20px;color:white;">Top 100 Quotes</header><br>
+    	<a href="https://www.brainyquote.com/">Click Here</a>
+    </section>
+    
+  </div>
+  <script>
+function myFunction(x) {
+  x.classList.toggle("fa-thumbs-down");
+}
+</script>
+</body>
+</html>
